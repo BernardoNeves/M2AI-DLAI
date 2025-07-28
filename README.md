@@ -45,3 +45,22 @@ python main.py \
 *   `--max_images`: Maximum number of images to use from the dataset.
 *   `--eval_split`: Dataset split to evaluate on after training (e.g., `test`, `validation`).
 *   `--grad_cam_split`: Dataset split to generate Grad-CAMs for (e.g., `test`, `validation`).
+
+## Model Comparison Report
+
+### Final Validation Metrics
+
+| Model Name               | Accuracy | AUC ROC | F1     | Precision | Recall | Loss   | Epochs |
+| ------------------------ | -------- | ------- | ------ | --------- | ------ | ------ | ------ |
+| vit_small_patch16_224 | 0.9394   | 0.9757  | 0.9394 | 0.9397    | 0.9394 | 0.3207 | 50     |
+| efficientnet_b0         | 0.9460   | 0.9830  | 0.9459 | 0.9482    | 0.9460 | 0.3048 | 50     |
+
+---
+
+### Test Metrics
+
+| Model Name               | Accuracy | AUC ROC | F1     | Precision | Recall | Loss   |
+| ------------------------ | -------- | ------- | ------ | --------- | ------ | ------ |
+| vit_small_patch16_224 | 0.8905   | 0.9402  | 0.8905 | 0.8909    | 0.8905 | 0.3207 |
+| efficientnet_b0         | 0.8497   | 0.9087  | 0.8491 | 0.8542    | 0.8497 | 0.4097 |
+
