@@ -1,0 +1,13 @@
+{
+  "best_val_accuracy": 0.9394,
+  "final_val_metrics": {
+    "loss": 0.32070340026336114,
+    "accuracy": 0.9394,
+    "precision": 0.9397349725126612,
+    "recall": 0.9394,
+    "f1": 0.9393884571377774,
+    "auc_roc": 0.9756797599999999
+  },
+  "total_epochs": 50,
+  "model_name": "vit_small_patch16_224"
+}

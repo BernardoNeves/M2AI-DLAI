@@ -1,0 +1,13 @@
+{
+  "best_val_accuracy": 0.9522,
+  "final_val_metrics": {
+    "loss": 0.3048040379953992,
+    "accuracy": 0.946,
+    "precision": 0.9482214572576019,
+    "recall": 0.946,
+    "f1": 0.9459330088352672,
+    "auc_roc": 0.98303984
+  },
+  "total_epochs": 50,
+  "model_name": "efficientnet_b0"
+}
